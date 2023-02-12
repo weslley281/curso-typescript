@@ -1,0 +1,28 @@
+"use strict";
+const nome = 'Weslley';
+console.log('Nome: ' + nome);
+let idade = 27;
+console.log('Idade: ' + idade);
+let gostaDeProgramcao = true;
+console.log('Gosta de Programação ?' + gostaDeProgramcao ? 'Sim' : 'Não');
+let frase = 'Sei lá';
+let hobbies = ['Artes Marciais', 'Passear com cachorro', 'Ler'];
+console.log(hobbies);
+let endereco = ['Rua Diego Botelho', 366];
+console.log(endereco);
+console.log(typeof idade);
+console.log(typeof nome);
+console.log(typeof gostaDeProgramcao);
+console.log(typeof frase);
+console.log(typeof hobbies);
+console.log(typeof endereco);
+var Cor;
+(function (Cor) {
+    Cor[Cor["Cinza"] = 0] = "Cinza";
+    Cor[Cor["Verde"] = 1] = "Verde";
+    Cor[Cor["Azul"] = 2] = "Azul";
+})(Cor || (Cor = {}));
+let minhaCor = Cor.Verde;
+console.log(minhaCor);
+console.log(typeof Cor);
+console.log(typeof minhaCor);
