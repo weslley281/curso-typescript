@@ -33,3 +33,9 @@ console.log(minhaCor);
 
 console.log(typeof Cor);
 console.log(typeof minhaCor);
+
+//any
+let carro: any = 'BMW';
+console.log(carro);
+carro = { marca: 'BMW', ano: 2022 };
+console.log(carro);
