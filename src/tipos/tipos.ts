@@ -39,3 +39,19 @@ let carro: any = 'BMW';
 console.log(carro);
 carro = { marca: 'BMW', ano: 2022 };
 console.log(carro);
+
+//função
+function retornaMeuNome(): string {
+  return nome;
+}
+console.log(retornaMeuNome);
+
+function retornaNada(): void {
+  return console.log('Eu não sou nada');
+}
+console.log(retornaNada);
+
+function retornaMultiplicacao(n1: number, n2: number): number {
+  return n1 * n2;
+}
+console.log(retornaMultiplicacao(4.4, 5.4));
