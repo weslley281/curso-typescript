@@ -61,3 +61,8 @@ calculo = retornaMultiplicacao;
 console.log(calculo(3, 6));
 
 console.log(typeof calculo);
+
+let usuario = {
+  nome: 'Vampeta',
+  idade: 289,
+};
