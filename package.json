@@ -2,9 +2,9 @@
   "name": "curso-typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/tipos/tipos.ts",
   "scripts": {
-    "dev": "ts-node-dev",
+    "dev": "ts-node-dev src/tipos/tipos.ts",
     "watch": "tsc -w"
   },
   "repository": {

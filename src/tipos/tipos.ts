@@ -1,4 +1,4 @@
-const nome: string = 'Weslley';
+const nome = 'Weslley';
 console.log('Nome: ' + nome);
 
 let idade: Number = 27;
@@ -55,3 +55,9 @@ function retornaMultiplicacao(n1: number, n2: number): number {
   return n1 * n2;
 }
 console.log(retornaMultiplicacao(4.4, 5.4));
+
+let calculo: any;
+calculo = retornaMultiplicacao;
+console.log(calculo(3, 6));
+
+console.log(typeof calculo);
